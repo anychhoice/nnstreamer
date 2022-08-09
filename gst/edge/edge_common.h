@@ -22,5 +22,7 @@ G_BEGIN_DECLS
 #endif /* GST_EDGE_PACKAGE */
 #define GST_EDGE_ELEM_NAME_SINK "edgesink"
 #define GST_EDGE_ELEM_NAME_SRC "edgesrc"
-    G_END_DECLS
+#define DEFAULT_HOST "localhost"
+#define DEFAULT_PORT 3000
+G_END_DECLS
 #endif /* __GST_EDGE_H__ */
