@@ -10,6 +10,7 @@ edge_dep = [
     glib_dep, 
     gst_base_dep,
     gst_dep,
+    nnstreamer_edge_support_deps
 ]
 
 foreach s : edge_files
